@@ -1,0 +1,365 @@
+/* ==================================================
+   ATIVIDADE: LANDING PAGE EDUCACÃO
+   Complete os valores em branco e teste no navegador.
+   Consulte o README.md para estudar cada propriedade.
+   ================================================== */
+
+/* 1. Configurações gerais */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: ;
+}
+
+body {
+    margin: ;
+    font-family: ;
+    color: ;
+    background-color: ;
+    line-height: ;
+}
+
+img {
+    display: ;
+    width: ;
+    max-width: ;
+    height: ;
+    object-fit: ;
+}
+
+a {
+    color: ;
+    text-decoration: ;
+}
+
+ul {
+    list-style: ;
+    margin: ;
+    padding: ;
+}
+
+/* 2. Contêiner e seções */
+.section {
+    width: ;
+    max-width: ;
+    margin: ;
+    padding: ;
+}
+
+.section-heading {
+    max-width: ;
+    margin: ;
+    text-align: ;
+}
+
+.section-heading h2 {
+    margin: ;
+    font-family: ;
+    font-size: ;
+}
+
+.section-heading p {
+    color: ;
+}
+
+/* 3. Cabeçalho e navegação */
+.site-header {
+    display: ;
+    justify-content: ;
+    align-items: ;
+    gap: ;
+    padding: ;
+    background-color: ;
+}
+
+.logo {
+    font-size: ;
+    font-weight: ;
+}
+
+.main-nav ul {
+    display: ;
+    align-items: ;
+    gap: ;
+}
+
+.main-nav a {
+    padding: ;
+    font-weight: ;
+}
+
+.main-nav a:hover {
+    color: ;
+}
+
+/* 4. Banner principal */
+.hero {
+    display: ;
+    align-items: ;
+    justify-content: ;
+    gap: ;
+    padding: ;
+    background-color: ;
+}
+
+.hero-content {
+    width: ;
+    max-width: ;
+}
+
+.eyebrow {
+    color: ;
+    font-size: ;
+    font-weight: ;
+    text-transform: ;
+    letter-spacing: ;
+}
+
+.hero h1 {
+    margin: ;
+    font-family: ;
+    font-size: ;
+    line-height: ;
+}
+
+.hero-description {
+    font-size: ;
+    line-height: ;
+}
+
+.hero-image {
+    width: ;
+    max-width: ;
+}
+
+.hero-image img {
+    width: ;
+    height: ;
+    object-fit: ;
+    border-radius: ;
+}
+
+/* 5. Botões e links de ação */
+.button {
+    display: ;
+    align-items: ;
+    justify-content: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    font-weight: ;
+    text-align: ;
+    cursor: ;
+    transition: ;
+}
+
+.button-primary {
+    color: ;
+    background-color: ;
+}
+
+.button-primary:hover {
+    background-color: ;
+    transform: ;
+}
+
+.button-secondary {
+    color: ;
+    background-color: ;
+}
+
+.text-link {
+    color: ;
+    font-weight: ;
+}
+
+/* 6. Cards de serviços */
+.service-grid {
+    display: ;
+    grid-template-columns: ;
+    gap: ;
+}
+
+.service-card {
+    overflow: ;
+    background-color: ;
+    border-radius: ;
+    box-shadow: ;
+}
+
+.service-card img {
+    width: ;
+    height: ;
+    object-fit: ;
+}
+
+.card-content {
+    padding: ;
+}
+
+.card-content h3 {
+    margin-top: ;
+    font-size: ;
+}
+
+/* 7. Seção sobre */
+.about {
+    display: ;
+    align-items: ;
+    gap: ;
+}
+
+.about-image,
+.about-content {
+    width: ;
+}
+
+.about-image img {
+    width: ;
+    height: ;
+    object-fit: ;
+    border-radius: ;
+}
+
+.about-content h2 {
+    font-size: ;
+}
+
+/* 8. Diferenciais */
+.benefit-grid {
+    display: ;
+    grid-template-columns: ;
+    gap: ;
+}
+
+.benefit-card {
+    padding: ;
+    text-align: ;
+    background-color: ;
+    border-radius: ;
+}
+
+.benefit-icon {
+    display: ;
+    font-size: ;
+}
+
+/* 9. Depoimentos */
+.testimonial-grid {
+    display: ;
+    grid-template-columns: ;
+    gap: ;
+}
+
+.testimonial-card {
+    padding: ;
+    background-color: ;
+    border-left: ;
+    border-radius: ;
+}
+
+.testimonial-card blockquote {
+    margin: ;
+    line-height: ;
+}
+
+.testimonial-author {
+    font-weight: ;
+}
+
+.fictional-note {
+    font-size: ;
+    color: ;
+}
+
+/* 10. Contato e formulário */
+.contact {
+    display: ;
+    grid-template-columns: ;
+    gap: ;
+    background-color: ;
+    border-radius: ;
+}
+
+.contact-form {
+    display: ;
+    gap: ;
+}
+
+.form-group {
+    display: ;
+    gap: ;
+}
+
+.form-group label {
+    font-weight: ;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: ;
+    padding: ;
+    border: ;
+    border-radius: ;
+    font: ;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: ;
+    border-color: ;
+}
+
+.form-note {
+    font-size: ;
+}
+
+/* 11. Rodapé */
+.site-footer {
+    padding: ;
+    text-align: ;
+    color: ;
+    background-color: ;
+}
+
+.footer-brand {
+    font-size: ;
+    font-weight: ;
+}
+
+.footer-copy {
+    font-size: ;
+}
+
+/* 12. Responsividade
+   Pesquise e escolha um ponto de quebra adequado.
+   Dentro da media query, reorganize o menu, o banner,
+   os cards, a seção sobre e o contato para telas estreitas. */
+@media (max-width: ) {
+    .site-header {
+        /* Complete as propriedades necessárias */
+    }
+
+    .main-nav ul {
+        /* Complete as propriedades necessárias */
+    }
+
+    .hero {
+        /* Complete as propriedades necessárias */
+    }
+
+    .service-grid,
+    .benefit-grid,
+    .testimonial-grid {
+        /* Complete as propriedades necessárias */
+    }
+
+    .about,
+    .contact {
+        /* Complete as propriedades necessárias */
+    }
+}
